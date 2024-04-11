@@ -17,11 +17,6 @@ const ParticleBg = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        background: {
-          color: {
-            value: "#1B1B1B",
-          },
-        },
         interactivity: {
           events: {
             onclick: {
@@ -44,7 +39,7 @@ const ParticleBg = () => {
             },
           },
           line_linked: {
-            enable: true,
+            enable: false,
             opacity: 0.01,
           },
           move: {

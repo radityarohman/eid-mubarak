@@ -2,7 +2,7 @@ import { arrowBottom } from "../assets";
 
 const Intro = () => {
   return (
-    <section className="min-h-screen bg-[#E3E1D1] flex flex-col justify-center items-center gap-3 ">
+    <section className="bg-[#E3E1D1] flex flex-col justify-center items-center gap-3 relative min-h-screen z-10">
       <h1 className="text-[#8BB082] font-semibold md:text-5xl text-4xl">
         hai! coba scroll deh
       </h1>
