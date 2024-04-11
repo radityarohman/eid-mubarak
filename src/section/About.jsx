@@ -2,22 +2,13 @@ import { iedVideo } from "../assets";
 
 const About = () => {
   return (
-    <section className="absolute min-h-screen z-10 bg-[#1b1b1b] w-full max-2xl:-bottom-[750px]  max-lg:-bottom-[950px] max-md:-bottom-[1200px] -bottom-0 flex flex-col justify-center items-center py-24 text-[#89877d]">
-      <h1 className="text-5xl font-semibold">Tentang Website Ini</h1>
-      <p className="mt-2">
-        Ya betul, website ini terinspirasi dari editan tahun 2023 yang lalu
-      </p>
-      <video loop muted autoPlay="autoplay" className="mt-10 max-w-xl">
-        <source src={iedVideo} type="video/mp4" />
+    <section className="bg-[#282c1f] text-[#E0F5D0] flex justify-center flex-col md:pt-80 pt-20 items-center ">
+      <h1 className="font-inter md:text-[10rem] text-[8rem] max:md:text-[7rem] max-sm:text-[4rem] tracking-tighter leading-none px-56 ">
+        Website ini terinspirasi dari video ini
+      </h1>
+      <video autoPlay="autoplay" loop muted className="h-max mt-20">
+        <source src={iedVideo} />
       </video>
-      <div className="px-96">
-        <p className="mt-2 text-center">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
-          sapiente pariatur doloribus aliquam quaerat, labore quod aliquid
-          necessitatibus explicabo repudiandae rerum nobis eum voluptas adipisci
-          tempore, perspiciatis a eveniet harum
-        </p>
-      </div>
     </section>
   );
 };

@@ -2,16 +2,16 @@ import { github, instagram } from "../assets";
 
 const Footer = () => {
   return (
-    <section className="absolute z-10 -bottom-96 py-5 px-3 bg-[#E3E1D1] w-full flex justify-between items-center">
-      <h4 className="text-[#8BB082] font-semibold">
+    <section className="bg-[#E3E1D1] p-10 flex justify-between items-center max-sm:gap-4">
+      <h4 className="font-semibold max-sm:text-xs underline">
         Created by Raditya Ananda Rohman
       </h4>
-      <div className="flex gap-2">
-        <a href="" className="cursor-pointer">
-          <img src={instagram} alt="instagram" className="w-10" />
+      <div className="flex justify-end items-center gap-2">
+        <a href="https://github.com/RadityaRohman">
+          <img src={github} alt="github" className="w-8" />
         </a>
-        <a href="" className="cursor-pointer">
-          <img src={github} alt="github" className="w-10" />
+        <a href="https://www.instagram.com/raditya26._/?hl=id">
+          <img src={instagram} alt="instagram" className="w-8" />
         </a>
       </div>
     </section>
