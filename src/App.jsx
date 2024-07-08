@@ -3,11 +3,13 @@ import Intro from "./section/Intro";
 import Moon from "./section/Moon";
 import Quotes from "./section/About";
 import Footer from "./section/Footer";
+import MusicPlayer from "./components/MusicPlayer";
 
 const App = () => {
   return (
     <main className="relative font-inter overflow-hidden">
-      <section>
+      <MusicPlayer />
+      <section>``
         <Intro />
       </section>
       <section>
