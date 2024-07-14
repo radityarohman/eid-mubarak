@@ -9,7 +9,7 @@ const App = () => {
   return (
     <main className="relative font-inter overflow-hidden">
       <MusicPlayer />
-      <section>``
+      <section>
         <Intro />
       </section>
       <section>
